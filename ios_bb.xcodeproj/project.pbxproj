@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		40D133B01D958C4200313A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133AF1D958C4200313A60 /* AppDelegate.swift */; };
-		40D133B21D958C4200313A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133B11D958C4200313A60 /* ViewController.swift */; };
+		40D133B21D958C4200313A60 /* ToBeastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133B11D958C4200313A60 /* ToBeastViewController.swift */; };
 		40D133B51D958C4200313A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D133B31D958C4200313A60 /* Main.storyboard */; };
 		40D133B81D958C4200313A60 /* ios_bb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40D133B61D958C4200313A60 /* ios_bb.xcdatamodeld */; };
 		40D133BA1D958C4200313A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D133B91D958C4200313A60 /* Assets.xcassets */; };
 		40D133BD1D958C4200313A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D133BB1D958C4200313A60 /* LaunchScreen.storyboard */; };
 		40D133C81D958C4200313A60 /* ios_bbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133C71D958C4200313A60 /* ios_bbTests.swift */; };
 		40D133D31D958C4200313A60 /* ios_bbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133D21D958C4200313A60 /* ios_bbUITests.swift */; };
+		40D133E11D958C6000313A60 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E01D958C6000313A60 /* CancelButtonDelegate.swift */; };
+		40D133E31D958E9900313A60 /* BeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E21D958E9900313A60 /* BeastCell.swift */; };
+		40D133E51D958EB400313A60 /* BeastedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E41D958EB400313A60 /* BeastedViewController.swift */; };
+		40D133E71D958EF200313A60 /* EditBeastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E61D958EF200313A60 /* EditBeastController.swift */; };
+		40D133EA1D95931700313A60 /* Beast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E81D95931700313A60 /* Beast+CoreDataProperties.swift */; };
+		40D133EB1D95931700313A60 /* Beast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133E91D95931700313A60 /* Beast.swift */; };
+		40D133ED1D95946900313A60 /* EditDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133EC1D95946900313A60 /* EditDelegate.swift */; };
+		40D133EF1D95A75A00313A60 /* BeastedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133EE1D95A75A00313A60 /* BeastedCell.swift */; };
+		40D133F11D95AA9800313A60 /* BeastCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D133F01D95AA9800313A60 /* BeastCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,7 @@
 /* Begin PBXFileReference section */
 		40D133AC1D958C4200313A60 /* ios_bb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_bb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D133AF1D958C4200313A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40D133B11D958C4200313A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40D133B11D958C4200313A60 /* ToBeastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeastViewController.swift; sourceTree = "<group>"; };
 		40D133B41D958C4200313A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40D133B71D958C4200313A60 /* ios_bb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_bb.xcdatamodel; sourceTree = "<group>"; };
 		40D133B91D958C4200313A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		40D133CE1D958C4200313A60 /* ios_bbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_bbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D133D21D958C4200313A60 /* ios_bbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_bbUITests.swift; sourceTree = "<group>"; };
 		40D133D41D958C4200313A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D133E01D958C6000313A60 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		40D133E21D958E9900313A60 /* BeastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastCell.swift; sourceTree = "<group>"; };
+		40D133E41D958EB400313A60 /* BeastedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedViewController.swift; sourceTree = "<group>"; };
+		40D133E61D958EF200313A60 /* EditBeastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBeastController.swift; sourceTree = "<group>"; };
+		40D133E81D95931700313A60 /* Beast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Beast+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		40D133E91D95931700313A60 /* Beast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beast.swift; sourceTree = "<group>"; };
+		40D133EC1D95946900313A60 /* EditDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDelegate.swift; sourceTree = "<group>"; };
+		40D133EE1D95A75A00313A60 /* BeastedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedCell.swift; sourceTree = "<group>"; };
+		40D133F01D95AA9800313A60 /* BeastCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,8 @@
 		40D133A31D958C4200313A60 = {
 			isa = PBXGroup;
 			children = (
+				40D133E81D95931700313A60 /* Beast+CoreDataProperties.swift */,
+				40D133E91D95931700313A60 /* Beast.swift */,
 				40D133AE1D958C4200313A60 /* ios_bb */,
 				40D133C61D958C4200313A60 /* ios_bbTests */,
 				40D133D11D958C4200313A60 /* ios_bbUITests */,
@@ -100,8 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				40D133AF1D958C4200313A60 /* AppDelegate.swift */,
-				40D133B11D958C4200313A60 /* ViewController.swift */,
+				40D133B11D958C4200313A60 /* ToBeastViewController.swift */,
+				40D133E41D958EB400313A60 /* BeastedViewController.swift */,
+				40D133E61D958EF200313A60 /* EditBeastController.swift */,
+				40D133E21D958E9900313A60 /* BeastCell.swift */,
 				40D133B31D958C4200313A60 /* Main.storyboard */,
+				40D133EC1D95946900313A60 /* EditDelegate.swift */,
+				40D133EE1D95A75A00313A60 /* BeastedCell.swift */,
+				40D133F01D95AA9800313A60 /* BeastCellDelegate.swift */,
+				40D133E01D958C6000313A60 /* CancelButtonDelegate.swift */,
 				40D133B91D958C4200313A60 /* Assets.xcassets */,
 				40D133BB1D958C4200313A60 /* LaunchScreen.storyboard */,
 				40D133BE1D958C4200313A60 /* Info.plist */,
@@ -196,6 +223,7 @@
 				TargetAttributes = {
 					40D133AB1D958C4200313A60 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PQTC7LKYPV;
 					};
 					40D133C21D958C4200313A60 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -260,8 +288,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D133B81D958C4200313A60 /* ios_bb.xcdatamodeld in Sources */,
-				40D133B21D958C4200313A60 /* ViewController.swift in Sources */,
+				40D133E51D958EB400313A60 /* BeastedViewController.swift in Sources */,
+				40D133ED1D95946900313A60 /* EditDelegate.swift in Sources */,
+				40D133EF1D95A75A00313A60 /* BeastedCell.swift in Sources */,
+				40D133E31D958E9900313A60 /* BeastCell.swift in Sources */,
+				40D133EA1D95931700313A60 /* Beast+CoreDataProperties.swift in Sources */,
+				40D133E71D958EF200313A60 /* EditBeastController.swift in Sources */,
+				40D133B21D958C4200313A60 /* ToBeastViewController.swift in Sources */,
+				40D133F11D95AA9800313A60 /* BeastCellDelegate.swift in Sources */,
+				40D133E11D958C6000313A60 /* CancelButtonDelegate.swift in Sources */,
 				40D133B01D958C4200313A60 /* AppDelegate.swift in Sources */,
+				40D133EB1D95931700313A60 /* Beast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ios_bb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffjkwok.ios-bb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ios_bb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffjkwok.ios-bb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
